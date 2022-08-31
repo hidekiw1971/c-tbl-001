@@ -1,0 +1,18 @@
+@use "global" as *;
+.horizontal-table--md-scroll {
+  border-right-width: 0;
+  overflow-x: auto;
+  @include mq(md) {
+  }
+}
+
+.horizontal-table--md-scroll .horizontal-table--header,
+.horizontal-table--md-scroll .horizontal-table--text {
+  white-space: nowrap;
+  @include mq(md) {
+  }
+}
+
+.horizontal-table--md-scroll .horizontal-table--text {
+  border-right: 1px solid #ddd;
+}

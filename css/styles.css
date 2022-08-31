@@ -196,6 +196,18 @@ select::-ms-expand {
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
+.horizontal-table--md-scroll {
+  border-right-width: 0;
+  overflow-x: auto;
+}
+.horizontal-table--md-scroll .horizontal-table--header,
+.horizontal-table--md-scroll .horizontal-table--text {
+  white-space: nowrap;
+}
+.horizontal-table--md-scroll .horizontal-table--text {
+  border-right: 1px solid #ddd;
+}
+
 .horizontal-table {
   border: 1px solid #ddd;
 }
