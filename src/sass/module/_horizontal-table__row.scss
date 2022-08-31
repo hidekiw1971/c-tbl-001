@@ -1,0 +1,12 @@
+@use "global" as *;
+.horizontal-table__row {
+  @include mq(md) {
+  }
+}
+
+.horizontal-table__row:last-child .horizontal-table__header,
+.horizontal-table__row:last-child .horizontal-table__text {
+  border-bottom-width: 0;
+  @include mq(md) {
+  }
+}

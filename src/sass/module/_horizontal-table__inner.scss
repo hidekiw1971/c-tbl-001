@@ -1,0 +1,6 @@
+@use "global" as *;
+.horizontal-table__inner {
+  width: 100%;
+  @include mq(md) {
+  }
+}

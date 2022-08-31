@@ -1,0 +1,8 @@
+@use "global" as *;
+.horizontal-table__text {
+  padding: rem(15);
+  border-bottom: 1px solid #ddd;
+  transition: 0.75s;
+  @include mq(md) {
+  }
+}

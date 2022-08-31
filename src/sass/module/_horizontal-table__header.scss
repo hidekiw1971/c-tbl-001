@@ -1,0 +1,11 @@
+@use "global" as *;
+.horizontal-table__header {
+  width: 20%;
+  padding: rem(15);
+  background-color: #efefef;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  vertical-align: middle;
+  @include mq(md) {
+  }
+}

@@ -1,0 +1,6 @@
+@use "global" as *;
+.horizontal-table {
+  border: 1px solid #ddd;
+  @include mq(md) {
+  }
+}
