@@ -200,8 +200,8 @@ select::-ms-expand {
   border-right-width: 0;
   overflow-x: auto;
 }
-.horizontal-table--md-scroll .horizontal-table--header,
-.horizontal-table--md-scroll .horizontal-table--text {
+.horizontal-table--md-scroll .horizontal-table__header,
+.horizontal-table--md-scroll .horizontal-table__text {
   white-space: nowrap;
 }
 .horizontal-table--md-scroll .horizontal-table--text {

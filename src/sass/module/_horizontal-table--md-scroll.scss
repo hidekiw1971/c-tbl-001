@@ -6,8 +6,8 @@
   }
 }
 
-.horizontal-table--md-scroll .horizontal-table--header,
-.horizontal-table--md-scroll .horizontal-table--text {
+.horizontal-table--md-scroll .horizontal-table__header,
+.horizontal-table--md-scroll .horizontal-table__text {
   white-space: nowrap;
   @include mq(md) {
   }
